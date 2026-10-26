@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Student Registration Form</string>
+    <string name="title">Student Registration Form</string>
+
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+
+    <string name="class_label">Class</string>
+    <string name="class_yod">10th grade</string>
+    <string name="class_yod_aleph">11th grade</string>
+    <string name="class_yod_bet">12th grade</string>
+
+    <string name="major_label">Major</string>
+    <string name="major_prompt">Choose a major</string>
+
+    <string-array name="majors">
+        <item>@string/major_prompt</item>
+        <item>Computer Science</item>
+        <item>Physics</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+    </string-array>
+
+    <string name="notifications">I agree to receive notifications</string>
+    <string name="terms">I agree to the terms of use</string>
+    <string name="register_button">Register</string>
+
+    <string name="error_first_name">Please enter your first name</string>
+    <string name="error_last_name">Please enter your last name</string>
+    <string name="error_email">Please enter a valid email address</string>
+    <string name="error_class">Please choose a class</string>
+    <string name="error_major">Please choose a major</string>
+    <string name="error_terms">Please agree to the terms of use</string>
+
+    <string name="notifications_yes">Yes</string>
+    <string name="notifications_no">No</string>
+
+    <string name="result_format">First name: %1$s\nLast name: %2$s\nEmail: %3$s\nClass: %4$s\nMajor: %5$s\nNotifications: %6$s</string>
+</resources>
